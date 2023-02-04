@@ -232,6 +232,7 @@ a{
 	border-top: 1px solid #000;
 	opacity: 0;
 	visibility: hidden;
+	z-index: 9999;
 }
 .all_menu.show{
 	opacity: 1;
@@ -372,6 +373,7 @@ a{
 }
 .main_visual h2{
 	text-indent: -9999px;
+	display: none;
 }
 .inner{
     max-width: 980px;
