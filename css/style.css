@@ -372,9 +372,12 @@ a{
 	position: relative;
 }
 .main_visual h2{
+	overflow: hidden; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	line-height: 0; 
 	text-indent: -9999px;
-	position: absolute;
-	top: 0;
 }
 .inner{
     max-width: 980px;
@@ -481,7 +484,12 @@ a{
 	z-index: 11;
 }
 .quick_menu h2{
-	text-indent:  -9999px;
+	overflow: hidden; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	line-height: 0; 
+	text-indent: -9999px;
 }
 .quick_menu_inner{
 	height: 100%;
@@ -620,6 +628,11 @@ a{
 	padding: 40px 0;
 }
 .notice h2{
+	overflow: hidden; 
+	position: absolute; 
+	width: 0; 
+	height: 0; 
+	line-height: 0; 
 	text-indent: -9999px;
 }
 .notice_inner{
